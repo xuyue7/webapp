@@ -1,7 +1,7 @@
 {
-  "name": "layuiAdmin.pro",
-  "version": "1.0.0-beta9",
-  "description": "通用后台管理模板系统",
+  "name": "layui",
+  "version": "1.0.0",
+  "description": "后台管理系统",
   "license": "LPPL",
   "author": [
     "xianxin <xianxin@layui-inc.com>"
