@@ -71,7 +71,7 @@
 					
 					login: function() {
 						console.log(this.username, this.pass_word)
-						axios.post('http://127.0.0.1:8080/login', {
+						axios.post('http://127.0.0.1:8080/user/login', {
 							params:{
 								username: this.username,
 								pwd: this.pass_word

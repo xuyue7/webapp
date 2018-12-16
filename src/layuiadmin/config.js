@@ -1,10 +1,7 @@
 /**
-
  @Name：layuiAdmin iframe版全局配置
  @Author：贤心
  @Site：http://www.layui.com/admin/
- @License：LPPL（layui付费产品协议）
-    
  */
  
 layui.define(['laytpl', 'layer', 'element', 'util'], function(exports){
@@ -15,11 +12,9 @@ layui.define(['laytpl', 'layer', 'element', 'util'], function(exports){
     ,entry: 'index' //默认视图文件名
     ,engine: '.html' //视图文件后缀名
     ,pageTabs: true //是否开启页面选项卡功能。iframe 常规版推荐开启
-    
     ,name: 'layuiAdmin'
     ,tableName: 'layuiAdmin' //本地存储表名
     ,MOD_NAME: 'admin' //模块事件名
-    
     ,debug: true //是否开启调试模式。如开启，接口异常时会抛出异常 URL 等信息
 
     //自定义请求字段
